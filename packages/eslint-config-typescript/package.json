@@ -12,7 +12,7 @@
     "url": "https://github.com/fab1o/eslint-config"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.com"
+    "registry": "https://registry.npmjs.org"
   },
   "bugs": {
     "url": "https://github.com/fab1o/eslint-config/issues"

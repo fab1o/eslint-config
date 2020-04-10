@@ -1,0 +1,38 @@
+{
+  "name": "@fab1o/eslint-config-base",
+  "version": "1.0.0",
+  "description": "ESLint base config",
+  "author": {
+    "name": "Fabio Costa",
+    "url": "https://github.com/fab1o"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fab1o/eslint-config"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com"
+  },
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/fab1o/eslint-config/issues"
+  },
+  "homepage": "https://github.com/fab1o/eslint-config",
+  "dependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.10.1",
+    "eslint-plugin-import": "2.20.2",
+    "eslint-plugin-jest": "23.8.2",
+    "eslint-plugin-mocha": "6.3.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-require-jsdoc-except": "1.3.0",
+    "prettier": "2.0.4"
+  },
+  "engines": {
+    "node": ">= 10"
+  },
+  "license": "MIT"
+}

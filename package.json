@@ -1,0 +1,30 @@
+{
+  "name": "@fab1o/eslint-config",
+  "version": "1.0.0",
+  "description": "The ESLint configuration for everyone.",
+  "private": false,
+  "author": {
+    "name": "Fabio Costa",
+    "url": "https://github.com/fab1o"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint . --ext .js",
+    "lint-fix": "eslint . --ext .js --fix",
+    "prettier": "prettier --ignore-path \".prettierignore\" --write \"**/*.{js,json,md}\"",
+    "prettier-lint": "npm run prettier && npm run lint-fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fab1o/eslint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/fab1o/eslint-config/issues"
+  },
+  "homepage": "https://github.com/fab1o/eslint-config",
+  "devDependencies": {
+    "@fab1o/eslint-config-react": "latest",
+    "jest": "25.3.0"
+  },
+  "license": "MIT"
+}

@@ -1,6 +1,5 @@
 module.exports = {
     singleQuote: true,
-    arrowParens: 'always',
     tabWidth: 4,
     overrides: [
         {
@@ -10,5 +9,6 @@ module.exports = {
             }
         }
     ],
-    printWidth: 100
+    printWidth: 100,
+    trailingComma: 'none'
 };

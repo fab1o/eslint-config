@@ -20,14 +20,17 @@
   "private": false,
   "homepage": "https://github.com/fab1o/eslint-config",
   "dependencies": {
-    "@fab1o/eslint-config-base": "latest",
-    "@typescript-eslint/eslint-plugin": "2.27.0",
-    "@typescript-eslint/parser": "2.27.0",
-    "typescript": "3.8.3"
+    "@fab1o/eslint-config-base": "^1.0.1",
+    "@typescript-eslint/eslint-plugin": "^2.29.0",
+    "@typescript-eslint/parser": "^2.29.0",
+    "typescript": "^3.8.3"
   },
   "peerDependencies": {
-    "typescript": ">=3.7.5"
+    "typescript": ">=3.8.3"
   },
+  "bundledDependencies": [
+    "@fab1o/eslint-config-base"
+  ],
   "engines": {
     "node": ">= 10"
   },

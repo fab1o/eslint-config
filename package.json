@@ -1,6 +1,6 @@
 {
   "name": "@fab1o/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The ESLint configuration for everyone.",
   "private": false,
   "author": {
@@ -24,7 +24,8 @@
   "homepage": "https://github.com/fab1o/eslint-config",
   "devDependencies": {
     "@fab1o/eslint-config-react": "latest",
-    "jest": "25.3.0"
+    "jest": "25.4.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }

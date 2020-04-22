@@ -13,7 +13,7 @@ validate_pkg $PACKAGE
 
 if [[ ${PACKAGE} = "all" ]]
 then
-    install_all base babel typescript react legacy
+    install_all base babel typescript react
 else
     install $PACKAGE
 fi

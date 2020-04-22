@@ -15,7 +15,7 @@ Execute the release script to release a package with a version.
 
 ```
 Package can be:
-    base | babel | react | typescript | legacy | all
+    base | babel | react | typescript | all
 
 Version can be:
     patch | minor | major

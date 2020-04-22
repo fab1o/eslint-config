@@ -7,7 +7,7 @@ BABEL_YELLOW="\033[0;33m"
 TS_BLUE="\033[0;34m"
 REACT_PURPLE="\033[0;35m"
 CYAN_COLOR="\033[0;36m"
-LEGACY_GRAY="\033[0;37m"
+GRAY="\033[0;37m"
 
 COLOR=$NO_COLOR
 
@@ -26,8 +26,5 @@ color() {
     elif [[ $PKG = "typescript" ]]
     then
         COLOR=$TS_BLUE
-    elif [[ $PKG = "legacy" ]]
-    then
-        COLOR=$LEGACY_GRAY
     fi
 }

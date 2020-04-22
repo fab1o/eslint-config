@@ -1,6 +1,6 @@
 {
   "name": "@fab1o/eslint-config-babel",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ESLint config for Babel",
   "author": {
     "name": "Fabio Costa",

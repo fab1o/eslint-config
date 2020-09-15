@@ -1,11 +1,9 @@
-// prettier
-const prettier = require('./.prettierrc');
-
-const rules = {
-    'prettier/prettier': ['error', prettier]
-};
+// prettier eslint
+const prettier = require('./config');
 
 module.exports = {
     extends: 'plugin:prettier/recommended',
-    rules
+    rules: {
+        'prettier/prettier': ['error', prettier]
+    }
 };

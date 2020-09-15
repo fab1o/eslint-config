@@ -8,11 +8,11 @@ The ESLint configuration for everyone. Based on [Airbnb JavaScript Style Guide](
 
 Choose the configuration package for your environment:
 
--   [ESLint for React (Babel or TypeScript) engineers](/packages/eslint-config-react#dsseslint-config-react)
--   [ESLint for React (ES6) engineers](/packages/eslint-config-react#dsseslint-config-react)
--   [ESLint for Babel engineers](/packages/eslint-config-babel#dsseslint-config-babel)
--   [ESLint for TypeScript engineers](/packages/eslint-config-typescript#dsseslint-config-typescript)
--   [ESLint for JavaScript (ES6) engineers](/packages/eslint-config-base#dsseslint-config-base)
+-   [ESLint for React (Babel or TypeScript) engineers](/packages/eslint-config-react#eslint-config-react)
+-   [ESLint for React (ES6) engineers](/packages/eslint-config-react#eslint-config-react)
+-   [ESLint for Babel engineers](/packages/eslint-config-babel#eslint-config-babel)
+-   [ESLint for TypeScript engineers](/packages/eslint-config-typescript#eslint-config-typescript)
+-   [ESLint for JavaScript (ES6) engineers](/packages/eslint-config-base#eslint-config-base)
 
 #### Running both Babel and TypeScript, without React?
 

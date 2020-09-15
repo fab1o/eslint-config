@@ -1,7 +1,7 @@
 {
   "name": "@fab1o/eslint-config-react",
-  "version": "1.1.0",
-  "description": "ESLint config for React with Babel or TypeScript",
+  "version": "1.0.5",
+  "description": "ESLint config for React",
   "author": {
     "name": "Fabio Costa",
     "url": "https://github.com/fab1o"
@@ -11,21 +11,21 @@
     "type": "git",
     "url": "https://github.com/fab1o/eslint-config"
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org"
-  },
   "private": false,
   "bugs": {
     "url": "https://github.com/fab1o/eslint-config/issues"
   },
   "homepage": "https://github.com/fab1o/eslint-config",
   "dependencies": {
-    "@fab1o/eslint-config-base": "^1.0.1",
-    "@fab1o/eslint-config-babel": "^1.2.0",
-    "@fab1o/eslint-config-typescript": "^1.1.0",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^3.0.0"
+    "@fab1o/eslint-config-base": "latest",
+    "@fab1o/eslint-config-babel": "latest",
+    "@fab1o/eslint-config-typescript": "latest",
+    "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-react": "7.20.6",
+    "eslint-plugin-react-hooks": "4.1.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.12.0"
   },
   "engines": {
     "node": ">= 10"

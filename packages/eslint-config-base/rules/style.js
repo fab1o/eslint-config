@@ -235,7 +235,7 @@ module.exports = {
         // https://eslint.org/docs/rules/max-len
         'max-len': [
             'error',
-            100,
+            120,
             4,
             {
                 ignoreUrls: true,
@@ -402,8 +402,7 @@ module.exports = {
             },
             {
                 selector: 'WithStatement',
-                message:
-                    '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.'
+                message: '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.'
             }
         ],
 
@@ -431,8 +430,8 @@ module.exports = {
             'error',
             {
                 allow: [],
-                allowAfterThis: false,
-                allowAfterSuper: false,
+                allowAfterThis: true,
+                allowAfterSuper: true,
                 enforceInMethodNames: true
             }
         ],
@@ -517,7 +516,10 @@ module.exports = {
                 blankLine: 'any',
                 prev: ['const', 'let', 'var'],
                 next: ['const', 'let', 'var']
-            }
+            },
+            { blankLine: 'always', prev: '*', next: 'return' },
+            { blankLine: 'always', prev: 'import', next: '*' },
+            { blankLine: 'any', prev: 'import', next: 'import' }
         ],
 
         // Disallow the use of Math.pow in favor of the ** operator
@@ -531,11 +533,7 @@ module.exports = {
 
         // require quotes around object literal property names
         // https://eslint.org/docs/rules/quote-props.html
-        'quote-props': [
-            'error',
-            'as-needed',
-            { keywords: false, unnecessary: true, numbers: true }
-        ],
+        'quote-props': ['error', 'as-needed', { keywords: false, unnecessary: true, numbers: true }],
 
         // specify whether double or single quotes should be used
         quotes: ['error', 'single', { avoidEscape: true }],

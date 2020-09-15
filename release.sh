@@ -20,7 +20,7 @@ validate_version $VERSION
 
 if [[ ${PACKAGE} = "all" ]]
 then
-    release_all base babel typescript react
+    release_all base babel typescript react vue
 else
     release $PACKAGE $VERSION
 fi

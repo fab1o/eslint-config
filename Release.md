@@ -8,6 +8,7 @@ Respect the order when releasing all of the them at the same time:
 2.  Babel
 3.  TypeScript
 4.  React
+5.  Vue
 
 ## Automated Release
 

@@ -1,3 +1,5 @@
+// .prettierrc config
+
 module.exports = {
     singleQuote: true,
     tabWidth: 4,
@@ -9,6 +11,6 @@ module.exports = {
             }
         }
     ],
-    printWidth: 100,
+    printWidth: 120,
     trailingComma: 'none'
 };

@@ -153,7 +153,7 @@ module.exports = {
             'warn',
             {
                 prefer: {
-                    return: 'return'
+                    return: 'returns'
                 },
                 preferType: {
                     object: 'Object',

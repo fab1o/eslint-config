@@ -18,7 +18,7 @@ module.exports = {
         'class-methods-use-this': [
             'error',
             {
-                exceptMethods: ['toString']
+                exceptMethods: ['toString', 'name']
             }
         ],
 

@@ -1,6 +1,6 @@
 {
   "name": "@fab1o/eslint-config-base",
-  "version": "1.0.1",
+  "version": "1.2.2",
   "description": "ESLint base config",
   "author": {
     "name": "Fabio Costa",
@@ -11,25 +11,24 @@
     "type": "git",
     "url": "https://github.com/fab1o/eslint-config"
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org"
-  },
   "private": false,
   "bugs": {
     "url": "https://github.com/fab1o/eslint-config/issues"
   },
   "homepage": "https://github.com/fab1o/eslint-config",
   "dependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.1",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-jest": "^23.8.2",
-    "eslint-plugin-mocha": "^6.3.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-require-jsdoc-except": "^1.3.0",
-    "prettier": "^2.0.4"
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-plugin-disable": "2.0.1",
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-jest": "24.0.0",
+    "eslint-plugin-jsdoc": "30.3.2",
+    "eslint-plugin-mocha": "8.0.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-require-jsdoc-except": "1.5.0",
+    "prettier": "2.1.1"
   },
   "engines": {
     "node": ">= 10"

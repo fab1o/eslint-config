@@ -9,21 +9,17 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fab1o/eslint-config"
+    "url": "https://github.com/fab1o/eslint-config/"
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org"
-  },
+  "private": false,
   "bugs": {
     "url": "https://github.com/fab1o/eslint-config/issues"
   },
-  "private": false,
   "homepage": "https://github.com/fab1o/eslint-config",
   "dependencies": {
-    "@fab1o/eslint-config-base": "^1.0.1",
-    "@typescript-eslint/eslint-plugin": "^2.29.0",
-    "@typescript-eslint/parser": "^2.29.0",
-    "typescript": "^3.8.3"
+    "@fab1o/eslint-config-base": "latest",
+    "@typescript-eslint/eslint-plugin": "4.0.1",
+    "@typescript-eslint/parser": "4.0.1"
   },
   "peerDependencies": {
     "typescript": ">=3.8.3"

@@ -9,5 +9,5 @@ module.exports = {
         './addon/promise',
         './addon/jest',
         './addon/prettier/index'
-    ].map(require.resolve)
+    ]
 };

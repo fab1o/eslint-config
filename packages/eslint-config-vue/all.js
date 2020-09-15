@@ -1,4 +1,4 @@
-// base + ts + all
+// base + babel + all
 
 module.exports = {
     extends: [
@@ -9,6 +9,6 @@ module.exports = {
         '@fab1o/eslint-config-base/addon/promise',
         '@fab1o/eslint-config-base/addon/jest',
 
-        require.resolve('./addon/prettier')
+        '@fab1o/eslint-config-base/addon/prettier'
     ]
 };

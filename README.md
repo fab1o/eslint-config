@@ -2,45 +2,22 @@
 
 ✅✅✅
 
-The ESLint configuration for everyone. Based on [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript).
+ESLint configurations for everyone. Based on [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) and organized into distinctive and separate packages:
 
-### Usage
-
-Choose the configuration package for your environment:
-
--   [ESLint for React (Babel or TypeScript) engineers](/packages/eslint-config-react#eslint-config-react)
--   [ESLint for React (ES6) engineers](/packages/eslint-config-react#eslint-config-react)
--   [ESLint for Babel engineers](/packages/eslint-config-babel#eslint-config-babel)
--   [ESLint for TypeScript engineers](/packages/eslint-config-typescript#eslint-config-typescript)
--   [ESLint for JavaScript (ES6) engineers](/packages/eslint-config-base#eslint-config-base)
-
-#### Running both Babel and TypeScript, without React?
-
--   [ESLint for Babel and TypeScript engineers](/Guide.md#eslint-for-everyone)
-
-### Add-ons
-
--   Jest
--   JSDoc
--   Mocha
--   Promise
--   Prettier
--   React Hooks
+-   [ESLint for React (Babel or TypeScript)](/packages/eslint-config-react)
+-   [ESLint for Babel](/packages/eslint-config-babel#dsseslint-config-babel)
+-   [ESLint for TypeScript](/packages/eslint-config-typescript)
+-   [ESLint for JavaScript (ES6)](/packages/eslint-config-base)
+-   [ESLint for Vue.js](/packages/eslint-config-vue)
 
 ## Collaboration
 
 Execute the install script to install depedencies for all packages.
 
 ```sh
-./install.sh all
+> ./install.sh all
 ```
-
-Then run:
-
-```sh
-npm test && npm run prettier-lint
-```
-
 ### Release
 
 Check the [Release Guide](/Release.md).
+

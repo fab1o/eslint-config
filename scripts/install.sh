@@ -12,7 +12,8 @@ install()
     echo "Installing eslint-config-${PKG}"
     echo ${NO_COLOR}
     cd packages/eslint-config-${PKG}
-    npm i
+    rm -rf node_modules
+    npm install
 
     cd ..
     cd ..

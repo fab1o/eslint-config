@@ -2,7 +2,7 @@
 
 NO_COLOR="\033[0m"
 ERROR_RED="\033[0;31m"
-BASE_GREEN="\033[0;32m"
+VUE_GREEN="\033[0;32m"
 BABEL_YELLOW="\033[0;33m"
 TS_BLUE="\033[0;34m"
 REACT_PURPLE="\033[0;35m"
@@ -16,7 +16,7 @@ color() {
 
     if [[ $PKG = "base" ]]
     then
-        COLOR=$BASE_GREEN
+        COLOR=$GRAY
     elif [[ $PKG = "babel" ]]
     then
         COLOR=$BABEL_YELLOW
@@ -26,5 +26,8 @@ color() {
     elif [[ $PKG = "typescript" ]]
     then
         COLOR=$TS_BLUE
+    elif [[ $PKG = "vue" ]]
+    then
+        COLOR=$VUE_GREEN
     fi
 }

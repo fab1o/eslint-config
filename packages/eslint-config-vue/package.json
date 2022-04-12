@@ -1,6 +1,6 @@
 {
   "name": "@fab1o/eslint-config-vue",
-  "version": "1.0.2",
+  "version": "1.2.1",
   "description": "ESLint config for Vue.js",
   "author": {
     "name": "Fabio Costa",
@@ -19,7 +19,7 @@
   "dependencies": {
     "@fab1o/eslint-config-base": "latest",
     "@fab1o/eslint-config-babel": "latest",
-    "eslint-plugin-vue": "6.2.2",
+    "eslint-plugin-vue": "7.1.0",
     "eslint-config-vue": "2.0.2"
   },
   "peerDependencies": {

@@ -147,43 +147,6 @@ module.exports = {
         // disallow comparisons with the value NaN
         'use-isnan': 'error',
 
-        // ensure JSDoc comments are valid
-        // https://eslint.org/docs/rules/valid-jsdoc
-        'valid-jsdoc': [
-            'warn',
-            {
-                prefer: {
-                    return: 'returns'
-                },
-                preferType: {
-                    object: 'Object',
-                    number: 'Number',
-                    array: 'Array',
-                    function: 'Function',
-                    string: 'String',
-                    integer: 'Number',
-                    Integer: 'Number',
-                    Null: 'null',
-                    Void: 'undefined',
-                    void: 'undefined',
-                    Undefined: 'undefined',
-                    boolean: 'Boolean',
-                    bool: 'Boolean',
-                    Decimal: 'Number',
-                    decimal: 'Number',
-                    double: 'Number',
-                    Double: 'Number',
-                    error: 'Error',
-                    date: 'Date'
-                },
-                requireReturn: false,
-                requireReturnType: true,
-                requireParamType: true,
-                requireReturnDescription: false,
-                requireParamDescription: false
-            }
-        ],
-
         // ensure that the results of typeof are compared against a valid string
         // https://eslint.org/docs/rules/valid-typeof
         'valid-typeof': ['error', { requireStringLiterals: true }]

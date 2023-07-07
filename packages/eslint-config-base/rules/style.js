@@ -213,7 +213,11 @@ module.exports = {
 
         // require or disallow an empty line between class members
         // https://eslint.org/docs/rules/lines-between-class-members
-        'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
+        'lines-between-class-members': [
+            'error',
+            'always',
+            { exceptAfterSingleLine: true }
+        ],
 
         // enforces empty lines around comments
         'lines-around-comment': 'off',
@@ -402,7 +406,8 @@ module.exports = {
             },
             {
                 selector: 'WithStatement',
-                message: '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.'
+                message:
+                    '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.'
             }
         ],
 
@@ -533,7 +538,11 @@ module.exports = {
 
         // require quotes around object literal property names
         // https://eslint.org/docs/rules/quote-props.html
-        'quote-props': ['error', 'as-needed', { keywords: false, unnecessary: true, numbers: true }],
+        'quote-props': [
+            'error',
+            'as-needed',
+            { keywords: false, unnecessary: true, numbers: true }
+        ],
 
         // specify whether double or single quotes should be used
         quotes: ['error', 'single', { avoidEscape: true }],

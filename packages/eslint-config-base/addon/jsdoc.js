@@ -4,6 +4,42 @@ module.exports = {
     plugins: ['jsdoc', 'require-jsdoc-except'],
     extends: ['plugin:jsdoc/recommended'],
     rules: {
+        // ensure JSDoc comments are valid
+        // https://eslint.org/docs/rules/valid-jsdoc
+        'valid-jsdoc': [
+            'warn',
+            {
+                prefer: {
+                    return: 'returns'
+                },
+                preferType: {
+                    object: 'Object',
+                    number: 'Number',
+                    array: 'Array',
+                    function: 'Function',
+                    string: 'String',
+                    integer: 'Number',
+                    Integer: 'Number',
+                    Null: 'null',
+                    Void: 'undefined',
+                    void: 'undefined',
+                    Undefined: 'undefined',
+                    boolean: 'Boolean',
+                    bool: 'Boolean',
+                    Decimal: 'Number',
+                    decimal: 'Number',
+                    double: 'Number',
+                    Double: 'Number',
+                    error: 'Error',
+                    date: 'Date'
+                },
+                requireReturn: false,
+                requireReturnType: true,
+                requireParamType: true,
+                requireReturnDescription: false,
+                requireParamDescription: false
+            }
+        ],
         'require-jsdoc': 'off',
         'jsdoc/require-jsdoc': 'off',
         'jsdoc/no-undefined-types': 'off',

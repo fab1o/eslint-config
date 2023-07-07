@@ -1,6 +1,6 @@
 {
   "name": "@fab1o/eslint-config-base",
-  "version": "1.3.0",
+  "version": "1.3.2",
   "description": "ESLint base config",
   "author": {
     "name": "Fabio Costa",

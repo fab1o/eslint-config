@@ -46,6 +46,7 @@ Which includes all add-ons except `aws`.
 By installing this package or any other package, you have access to all this:
 
 -   `"@fab1o/eslint-config-base"` - ES6 base only
+-   `"@fab1o/eslint-config-base/es5"` - ES5 base only
 -   `"@fab1o/eslint-config-base/all"` - ES6 base + all add-ons
 -   `"@fab1o/eslint-config-base/addon/node"` - Node only
 -   `"@fab1o/eslint-config-base/addon/aws"` - AWS & Node only
